@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-16T02:40:38.517Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="aFTziJgKCQIogddZvkf9" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-17T10:59:30.979Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="_F4wWf5hn-eDN_ZNJXgW" version="13.4.3" type="github">
   <diagram id="xbeYuj7o2MM7cCZZZD24" name="第 1 页">
-    <mxGraphModel dx="5331" dy="5770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="3977" dy="5081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -643,65 +643,95 @@
         <mxCell id="fMJHtb1txY9xNT4kAgJx-103" value="&lt;span style=&quot;font-size: 29px&quot;&gt;根据cmd的不同的请求方式来转发cmd的异步执行&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontColor=#0000CC;" parent="1" vertex="1">
           <mxGeometry x="7925" y="-70" width="650" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-1" target="1j6xGzbQNOazIiwFG02N-2">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-1" target="1j6xGzbQNOazIiwFG02N-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-1" value="同步刷盘和异步刷盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontColor=#00FF00;fontSize=26;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-1" value="同步刷盘和异步刷盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontColor=#00FF00;fontSize=26;" parent="1" vertex="1">
           <mxGeometry x="540" y="1300" width="370" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-2" target="1j6xGzbQNOazIiwFG02N-4">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-2" target="1j6xGzbQNOazIiwFG02N-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-2" value="创建对应的跟踪上下文内容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-2" value="创建对应的跟踪上下文内容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="635" y="1510" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-4" target="1j6xGzbQNOazIiwFG02N-6">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-4" target="1j6xGzbQNOazIiwFG02N-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-4" value="检测当前broker 是否是slave节点如果是&lt;br&gt;slave 则反回不可用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-4" value="检测当前broker 是否是slave节点如果是&lt;br&gt;slave 则反回不可用" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="592.5" y="1660" width="265" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-6" target="1j6xGzbQNOazIiwFG02N-8">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-6" target="1j6xGzbQNOazIiwFG02N-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-6" value="通过MpperFIle 将文件message写入文件中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-6" value="通过MpperFIle 将文件message写入文件中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="592.5" y="1850" width="265" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-8" target="1j6xGzbQNOazIiwFG02N-10">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-8" target="1j6xGzbQNOazIiwFG02N-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-8" target="1j6xGzbQNOazIiwFG02N-15">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-8" target="1j6xGzbQNOazIiwFG02N-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-8" value="执行刷盘操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-8" value="执行刷盘操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="592.5" y="2040" width="265" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-15" target="1j6xGzbQNOazIiwFG02N-12">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-15" target="1j6xGzbQNOazIiwFG02N-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-15" value="异步刷盘&lt;br&gt;定时每个500毫秒刷盘一次&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-15" value="异步刷盘&lt;br&gt;定时每个500毫秒刷盘一次&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="1030" y="2185" width="310" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-10" target="1j6xGzbQNOazIiwFG02N-12">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-10" target="1j6xGzbQNOazIiwFG02N-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-10" target="1j6xGzbQNOazIiwFG02N-18">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-10" target="1j6xGzbQNOazIiwFG02N-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-10" value="同步刷盘&lt;br&gt;通过定时任务将&lt;br&gt;刷盘结果Future.complete执行&lt;br&gt;存入结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-10" value="同步刷盘&lt;br&gt;通过定时任务将&lt;br&gt;刷盘结果Future.complete执行&lt;br&gt;存入结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="80" y="2190" width="300" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" edge="1" parent="1" source="1j6xGzbQNOazIiwFG02N-18" target="1j6xGzbQNOazIiwFG02N-20">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=26;fontColor=#00FF00;" parent="1" source="1j6xGzbQNOazIiwFG02N-18" target="1j6xGzbQNOazIiwFG02N-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-18" value="slave 的刷盘方式&lt;br&gt;是超时时间为5s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-18" value="slave 的刷盘方式&lt;br&gt;是超时时间为5s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="80" y="2440" width="300" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-20" value="HAClient&lt;br&gt;主动给slave发送&lt;br&gt;offest的偏移量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-20" value="HAClient&lt;br&gt;主动给slave发送&lt;br&gt;offest的偏移量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="-310" y="2620" width="300" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="1j6xGzbQNOazIiwFG02N-12" value="刷盘方式 是通过将mapperFile中的&lt;br&gt;MappedByteBuffer&lt;br&gt;整体刷出去" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" vertex="1" parent="1">
+        <mxCell id="1j6xGzbQNOazIiwFG02N-12" value="刷盘方式 是通过将mapperFile中的&lt;br&gt;MappedByteBuffer&lt;br&gt;整体刷出去" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000CC;fontSize=26;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="556" y="2460" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-1" value="master Slave 启动流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000FF;fontColor=#00FF00;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="1290" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-2" value="Master" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000FF;fontSize=27;fontColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="2480" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-3" value="server&lt;br&gt;port 10911" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=27;fillColor=#00FF00;" vertex="1" parent="1">
+          <mxGeometry x="1945" y="2440" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-4" value="&lt;font color=&quot;#ffffff&quot;&gt;Client&lt;br&gt;port&amp;nbsp; namenode地址&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=27;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="2440" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-5" value="nameNode&lt;br&gt;localhost:9876" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;fontSize=27;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1760" width="580" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-7" value="" style="endArrow=none;dashed=1;html=1;fontSize=20;fontColor=#0000CC;" edge="1" parent="1" source="ImaQXtrBq1CLkZ8MzrOc-8" target="ImaQXtrBq1CLkZ8MzrOc-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2384.545454545455" y="2320" as="sourcePoint" />
+            <mxPoint x="2210" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-8" value="定时发送心跳" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=27;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="2160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ImaQXtrBq1CLkZ8MzrOc-9" value="" style="endArrow=none;dashed=1;html=1;fontSize=20;fontColor=#0000CC;" edge="1" parent="1" source="ImaQXtrBq1CLkZ8MzrOc-4" target="ImaQXtrBq1CLkZ8MzrOc-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2538.3518038861494" y="2453.831729878031" as="sourcePoint" />
+            <mxPoint x="2792.167832167832" y="1950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
