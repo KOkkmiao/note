@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T05:47:03.258Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" version="13.5.5" etag="akZ2ZQcKD6wgI8vK9ZOT" type="github"><diagram id="P4oiMs18zLNOx8z-5_zC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-14T10:01:38.219Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="mBYDXZRBzhUf8dVg1Zi1" version="13.5.5" type="github">
+  <diagram id="P4oiMs18zLNOx8z-5_zC" name="第 1 页">
+    <mxGraphModel dx="5331" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-1" target="2ZB8JP_byCB2bst-7dcp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-1" target="2ZB8JP_byCB2bst-7dcp-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="170" />
+              <mxPoint x="1480" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-1" target="2ZB8JP_byCB2bst-7dcp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-1" target="2ZB8JP_byCB2bst-7dcp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-1" value="ZookeeperServerMain&lt;br&gt;Server 入口类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-3" value="Log JmX 注册MBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="260" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.568;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-5" target="2ZB8JP_byCB2bst-7dcp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-5" target="2ZB8JP_byCB2bst-7dcp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-5" value="文件系统&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="210" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-6" value="snap&lt;br&gt;快照版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-7" value="txnlog&lt;br&gt;数据的事物日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-8" value="ServerStats&lt;br&gt;状态统计类&lt;br&gt;统计活跃数，日志文件大小，数据文件大小最后访问id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-9" target="2ZB8JP_byCB2bst-7dcp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-9" target="2ZB8JP_byCB2bst-7dcp-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-9" target="2ZB8JP_byCB2bst-7dcp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-9" target="2ZB8JP_byCB2bst-7dcp-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-9" target="2ZB8JP_byCB2bst-7dcp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-9" value="ZookeeperServer&lt;br&gt;服务类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="190" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-16" value="ZookeeperServerLIstenerImpl&lt;br&gt;监听类&lt;br&gt;错误的情况：将Server 类状态设置为 ERROR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="400" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-20" value="ResponseCach&lt;br&gt;使用LRU 算法，默认使用&lt;br&gt;链表的1/4 移除头结点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="405" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-23" value="childrenResCash&lt;br&gt;使用LRU 算法，默认使用&lt;br&gt;链表的1/4 移除头结点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="405" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-24" value="RequestPathMetricsCollector&lt;br&gt;请求的缓存类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZB8JP_byCB2bst-7dcp-28" target="2ZB8JP_byCB2bst-7dcp-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-28" value="AdminServer&amp;nbsp;&lt;br&gt;操作命令 jetty操作&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="220" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZB8JP_byCB2bst-7dcp-30" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;Commands&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;不同URL 进行的doGet 处理&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-17.5" y="405" width="245" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
