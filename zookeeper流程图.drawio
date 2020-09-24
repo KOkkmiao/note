@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T01:17:38.727Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="yLKsJe5CbAUvdBsWO3un" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-24T02:24:45.224Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="NUz2f8KBcZUdNRGmiXTE" version="13.7.3" type="github">
   <diagram id="P4oiMs18zLNOx8z-5_zC" name="第 1 页">
-    <mxGraphModel dx="5331" dy="5880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="5670" dy="6079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -508,8 +508,16 @@
         <mxCell id="obTQn75DZRuvJQjSwRdG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-20" target="obTQn75DZRuvJQjSwRdG-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-20" target="obTQn75DZRuvJQjSwRdG-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-20" target="obTQn75DZRuvJQjSwRdG-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-840" y="1995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="obTQn75DZRuvJQjSwRdG-20" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;QuorumCnxManager&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;管理类&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="1950" width="250" height="130" as="geometry" />
+          <mxGeometry x="-150" y="1930" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="obTQn75DZRuvJQjSwRdG-22" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;sendWorkerMap&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;工作队列&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-420" y="2180" width="190" height="100" as="geometry" />
@@ -518,7 +526,43 @@
           <mxGeometry x="110" y="2180" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="obTQn75DZRuvJQjSwRdG-24" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;queueSendMap&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;发送&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="2185" width="180" height="100" as="geometry" />
+          <mxGeometry x="-130" y="2175" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-28" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;recvQueue&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;接收队列&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="2177.5" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-31" target="obTQn75DZRuvJQjSwRdG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-31" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;listener&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;执行类&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="2170" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-32" target="obTQn75DZRuvJQjSwRdG-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-32" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;List&amp;lt;listenerHandler&amp;gt;&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;执行类&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1325" y="2380" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-34" target="obTQn75DZRuvJQjSwRdG-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-34" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;run&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;多线程执行&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;所有的节点的链接&lt;br/&gt;&lt;br/&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="2157.5" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-37" target="obTQn75DZRuvJQjSwRdG-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-37" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;run&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;accpectConnections&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;(死循环)&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;执行连接&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1322.5" y="2510" width="212.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obTQn75DZRuvJQjSwRdG-39" target="obTQn75DZRuvJQjSwRdG-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-39" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;soket.accept()&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;接收链接&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;receiveConnection(client)&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;处理链接&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1322.5" y="2660" width="222.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="obTQn75DZRuvJQjSwRdG-41" value="&lt;pre style=&quot;background-color: #ffffff ; color: #000000 ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 12pt&quot;&gt;handleConnection(soket，in)&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1342.5" y="2870" width="262.5" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
