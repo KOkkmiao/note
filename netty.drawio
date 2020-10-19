@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T07:04:01.977Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="UAcrM6qa4RtgKChIW_F5" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-19T02:08:19.456Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="pOz8V0o23T-yxnVXRtV-" version="13.7.3" type="github">
   <diagram id="tISTSOa1IbnUW52Cragt" name="第 1 页">
-    <mxGraphModel dx="3685" dy="3537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4024" dy="3736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,6 +361,30 @@
         </mxCell>
         <mxCell id="6w5kW8aePezKGZnNkr1f-38" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;当前线程是否已经在当前执行器中&lt;br&gt;优雅关闭线程的方式&lt;br&gt;创建新的promise方法&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-1580" y="-845" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gVq4MrgnVyCzjxpUbSnU-1" target="gVq4MrgnVyCzjxpUbSnU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-1" value="Future&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="-1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gVq4MrgnVyCzjxpUbSnU-2" target="gVq4MrgnVyCzjxpUbSnU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gVq4MrgnVyCzjxpUbSnU-2" target="gVq4MrgnVyCzjxpUbSnU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-2" value="Future（netty）&lt;br&gt;增加Listener 和removeListener&lt;br&gt;返回Future" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2775" y="-1110" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-4" value="Promise&lt;br&gt;Listener 和removeListener&lt;br&gt;返回Promise" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="-1110" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-6" value="AbstractFuture&lt;br&gt;实现get 和get超时" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2775" y="-970" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gVq4MrgnVyCzjxpUbSnU-8" value="EventLoopExecutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="-710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
